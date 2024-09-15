@@ -82,6 +82,8 @@ export default function Input() {
     setpostLoading(false);
     setImageFileUrl(null);
     setSelectedFile(null);
+    setText("");
+    location.reload();
   };
 
   if (!session) return null;
